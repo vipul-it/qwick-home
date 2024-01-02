@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { MdArrowRightAlt } from "react-icons/md";
+import React from "react";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { TestReport } from "../constants/index";
 import doctor from "../img/drbackground.png";
 
@@ -14,27 +14,29 @@ const Card = () => {
     "Anti PVR",
     "CT Scane",
   ];
-  const [test, setTest] = useState(TestReport);
+
+  const test = TestReport;
+  // const [test, setTest] = useState(TestReport);
   return (
-    <div className="container mx-auto mt-10 md:mt-14 ">
-        <div className="md:flex justify-between h-full md:h-[80vh] ">
+    <div className="container px-5 lg:px-16   mt-4 md:mt-14 mb-10">
+        <div className="md:flex justify-between gap-2 h-full md:h-[80vh] ">
           <div className="w-full md:w-[45%] h-full flex ">
-            <img className="h-full w-max  " src={doctor} alt="doctor" />
+            <img className="w-100  h-100" src={doctor} alt="doctor" />
           </div>
-          <div className="w-full md:w-[60%] relative">
+          <div className="w-full md:w-[56%] relative">
             <div className="">
-              <div className="text-start mt-[20%]">
+              <div className="text-start mt-[20%] ">
                 <h1 className="text-2xl md:text-4xl font-raleway font-bold ">
                   Should You Get Tested?
                 </h1>
-                <p className="font-raleway text-[16px] py-4 ">
+                <p className="font-raleway text-lg py-4 ">
                   To set a background image in a React application, you can use
                   the inline style attribute or create a CSS file and import it
                   into your React component. Here's an example of how you can
                   set a background image using inline styles
                 </p>
               </div>
-              <div className="bg-theme1 p-2 md:p-6 rounded-sm  absolute bottom-0 inset-x-0">
+              <div className="bg-theme1 p-8 md:p-6 rounded-sm  absolute bottom-0 inset-x-0">
                 <h2 className="text-start font-raleway font-bold text-whitecolor text-2xl">
                   Infection we test for!
                 </h2>
@@ -59,20 +61,20 @@ const Card = () => {
             </div>
           </div>
         </div>
-      <div className="bg-white grid md:grid-cols-2 lg:grid-cols-3 gap-8 m-[5%] ">
+      <div className="bg-white grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-16 ">
         {test.map((item, index) => (
-          <div className="shadow-lg shadow-slate-400 rounded-xl pb-4">
-            <div className="bg-theme1 p-10 rounded-t-3xl">
-              <h2 className="text-center text-whitecolor font-raleway font-bold">
+          <div key={index} className="shadow-lg rounded-2xl shadow-slate-400  pb-4">
+            <div className="bg-theme1 p-10 border rounded-t-2xl">
+              <h2 className="text-center text-xl text-whitecolor font-raleway font-bold">
                 {item.testName}
               </h2>
             </div>
             <div className="flex justify-center items-center ">
-              <div className="border-2 border-theme1 bg-white rounded-full h-20 w-20 -mt-[10%]">
+              <div className="border-[3px] border-theme1 bg-white rounded-full h-20 w-20 -mt-[11%]">
                 <img
                   className="h-full w-full p-6 object-cover"
                   src={item.logo}
-                  alt=""
+                  alt="logo"
                 />
               </div>
             </div>
@@ -81,62 +83,62 @@ const Card = () => {
                 {item.offers}
               </h1>
               <div className="flex justify-between px-6 py-1 ">
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR1.testTypeName}
                 </p>
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR1.testTypeValue}
                 </p>
               </div>
               <hr />
               <div className="flex justify-between px-6 py-1">
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR2.testTypeName}
                 </p>
-                <p className="font-raleway text-[14px] font-semibold">
+                <p className="font-poppins text-[14px] font-semibold">
                   {item.testTypeR2.testTypeValue}
                 </p>
               </div>
               <hr />
               <div className="flex justify-between px-6 py-1">
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR3.testTypeName}
                 </p>
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR3.testTypeValue}
                 </p>
               </div>
               <hr />
               <div className="flex justify-between px-6 py-1">
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR4.testTypeName}
                 </p>
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR4.testTypeValue}
                 </p>
               </div>
               <hr />
               <div className="flex justify-between px-6 py-1">
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR5.testTypeName}
                 </p>
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR5.testTypeValue}
                 </p>
               </div>
               <hr />
               <div className="flex justify-between px-6 py-1">
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR6.testTypeName}
                 </p>
-                <p className="font-raleway text-[14px] font-semibold text-gray-900">
+                <p className="font-poppins text-[14px] font-semibold text-gray-900">
                   {item.testTypeR6.testTypeValue}
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center my-6">
-              <button className="md:w-1/2 py-1 px-2 bg-theme1 text-lg text-white rounded-lg mx-auto flex justify-center items-center">
-                <span>Book Now</span> <MdArrowRightAlt className="pt-1" />
+            <div className=" my-6">
+              <button className="w-8/12 py-2 px-2 flex justify-center items-center bg-theme1 hover:bg-theme1h text-lg text-white rounded-lg mx-auto">
+                <span>Book Now</span> <FaArrowRightLong  className="ml-2" />
               </button>
             </div>
           </div>

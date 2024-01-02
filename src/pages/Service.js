@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 const Service = ({ service }) => {
-  const [count, setCount] = useState(6);
+  const count = 6;
+  // const [count, setCount] = useState(6);
   const [showAll, setShowAll] = useState(false);
   const handleShow = () => {
     setShowAll(!showAll);

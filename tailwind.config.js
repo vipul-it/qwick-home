@@ -9,10 +9,16 @@ module.exports = {
     },
     extend: {
       colors: {
-        theme1: "#257278",
+        theme1: "#257378",
+        theme1h: "#1c5f63",
         themeblack: "black",
         whitecolor: "white",
+        
       },
+      backgroundImage: {
+        'hero-image': "url('/src/img/backgroundimg.jpeg')",
+      }
+
     },
   },
   plugins: [],
