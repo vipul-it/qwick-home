@@ -38,15 +38,15 @@ const Card = () => {
           </div>
           <div className=" col-span-7">
             <div className="">
-              <div className="text-start lg:mt-[15%] mt-4">
+              <div className="text-start lg:mt-[15%] mt-4 ">
                 <h1 className="text-2xl md:text-4xl font-raleway font-bold my-2">
                   Should You Get Tested?
                 </h1>
-                <p className="font-raleway text-gray-900 text-[14px] md:text-lg font-medium lg:my-2 ">
+                <p className="font-raleway text-gray-900 text-[14px] md:text-lg font-medium lg:my-2 pr-5 lg:pr-12">
                   To set a background image in a React application, you can use
                   the inline style attribute or create a CSS file and import it
                   into your React component. Here's an example of how you can
-                  set a background image using inline styles
+                  set a background image
                 </p>
                 <div className="bg-theme1 p-10 md:p-10 rounded-sm  mt-10">
                   <h2 className="text-start font-raleway font-bold text-whitecolor text-2xl">
@@ -84,13 +84,13 @@ const Card = () => {
               key={index}
               className="shadow-lg rounded-2xl hover:shadow-slate-400 pb-4 hover:bg-slate-50/50"
             >
-              <div className="bg-theme1 p-10 border rounded-t-2xl">
-                <h2 className="text-center text-xl text-whitecolor font-raleway font-bold">
+              <div className="bg-theme1 py-10 px-5 border rounded-t-2xl">
+                <h2 className="text-center text-xl text-whitecolor font-raleway pb-4 font-bold ">
                   {item.testName}
                 </h2>
               </div>
               <div className="flex justify-center items-center ">
-                <div className="border-[3px] border-theme1 bg-white rounded-full h-20 w-20 -mt-[11%]">
+                <div className="border-[3px] border-theme1 bg-white rounded-full h-20 w-20 -mt-10">
                   <img
                     className="h-full w-full p-5 object-cover"
                     src={item.logo}

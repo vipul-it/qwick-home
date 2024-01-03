@@ -12,7 +12,8 @@ const HeroSection = () => {
     setModalOpen(false);
   };
   return (
-    <div className="container mx-auto lg:h-screen h-[40vh] lg:bg-hero-image lg:bg-transparent bg-slate-100 bg-cover bg-no-repeat bg-center pt-5 lg:pt-0">
+    <div className="container mx-auto xl:h-screen  lg:h-screen h-[40vh] lg:bg-hero-image lg:bg-transparent bg-slate-100 lg:bg-cover  bg-no-repeat lg:bg-center pt-5 lg:pt-0">
+      {/* modal call  */}
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
       <div className="px-5 lg:px-12 md:flex justify-between lg:h-full font-raleway ">
         <div className="flex justify-center items-center">
