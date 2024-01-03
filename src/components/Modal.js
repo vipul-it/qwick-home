@@ -74,21 +74,21 @@ const Modal = ({ isOpen, onClose }) => {
             >
               Select Health Issue:
             </label>
-            <div class="relative inline-block w-64">
+            <div className="relative inline-block w-64">
               <select
                 id="healthIssue"
                 name="healthIssue"
-                class="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+                className="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
               >
                 <option value="fever">Fever</option>
                 <option value="bloodTest">Blood Test</option>
                 <option value="bloodTest">Full Body Test</option>
                 <option value="other">Other</option>
               </select>
-              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                 {/* Dropdown arrow icon  */}
                 <svg
-                  class="fill-current h-4 w-4"
+                  className="fill-current h-4 w-4"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                 >
