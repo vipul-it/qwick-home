@@ -8,11 +8,11 @@ const Modal = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed inset-0 z-50 overflow-auto  ${isOpen ? 'block' : 'hidden'}`}
+      className={`fixed inset-0 z-50 overflow-auto bg-black/50  ${isOpen ? 'block' : 'hidden'}`}
     >
       <div className="flex items-center justify-center min-h-screen px-4">
         <div className="bg-white w-full max-w-md p-8 rounded-md shadow-lg">
-          <div className="mb-4">
+          <div className="mb-3">
             <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
               Name:
             </label>
@@ -23,7 +23,7 @@ const Modal = ({ isOpen, onClose }) => {
               placeholder="Enter your name"
             />
           </div>
-          <div className="mb-4">
+          <div className="mb-3">
             <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
               Email:
             </label>
@@ -34,7 +34,7 @@ const Modal = ({ isOpen, onClose }) => {
               placeholder="Enter your email"
             />
           </div>
-          <div className="mb-4">
+          <div className="mb-3">
             <label htmlFor="phone" className="block text-gray-700 font-bold mb-2">
               Phone:
             </label>
@@ -45,7 +45,18 @@ const Modal = ({ isOpen, onClose }) => {
               placeholder="Enter your phone number"
             />
           </div>
-          <div className="mb-4">
+          <div className="mb-3">
+            <label htmlFor="text" className="block text-gray-700 font-bold mb-2">
+              Which Type Test?
+            </label>
+            <input
+              type="text"
+              id="test"
+              className="w-full border rounded px-3 py-2"
+              placeholder="eg. Fever"
+            />
+            </div>
+          <div className="mb-3">
             <label htmlFor="message" className="block text-gray-700 font-bold mb-2">
               Message:
             </label>
@@ -58,7 +69,7 @@ const Modal = ({ isOpen, onClose }) => {
           </div>
           <div className="flex justify-end">
             <button
-              className="bg-theme1 text-white px-4 py-2 rounded hover:bg-theme1h"
+              className="bg-theme1 text-white px-4 py-2 rounded-sm hover:bg-theme1h"
               onClick={handleModalClose}
             >
               Close

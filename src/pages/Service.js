@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 const Service = ({ service }) => {
   const count = 6;
-  // const [count, setCount] = useState(6);
   const [showAll, setShowAll] = useState(false);
   const handleShow = () => {
     setShowAll(!showAll);
   };
   return (
     <div>
-      <div className="md:p-5 bg-gray-50 ">
+      <div className="container mx-auto lg:px-12 px-5 md:p-5 bg-gray-50 py-5">
         <div className="my-8">
-          <h1 className="font-raleway font-bold text-center text-4xl">
+          <h1 className="font-raleway font-bold text-center lg:text-4xl text-3xl">
             Recomended Services
           </h1>
           <h1 className="font-raleway text-center text-gray-800 text-lg">
             Recomended Services Subtitle
           </h1>
         </div>
-        <div className="grid md:grid-cols-3 gap-4 place-items-center mx-[5%]">
+        <div className="grid md:grid-cols-3 gap-6 place-items-center ">
           {service
             .slice(0, showAll ? service.length : count)
             .map((item, index) => (
@@ -26,20 +25,18 @@ const Service = ({ service }) => {
                 className="bg-white w-full h-full lg:w-96 lg:h-68 border border-gray-200 shadow-lg"
               >
                 <div className="text-center">
-                  <div className="w-full h-32 border-b-8 border-theme1">
+                  <div className="w-full h-full border-b-8 border-theme1 overflow-hidden">
                     <img
-                      className="w-full h-full"
+                      className="w-full h-auto transform transition-transform duration-300 scale-105 hover:scale-125 "
                       src={item.img}
                       alt="service"
                     />
                   </div>
-                  <div className="py-6">
+                  <div className="py-6 px-5">
                     <h1 className="font-semibold text-[20px] font-raleway">
                       {item.service}
                     </h1>
-                    <p className=" text-[14px] ">
-                      {item.description}
-                    </p>
+                    <p className=" text-[14px] ">{item.description}</p>
                     <p className="text-[16px] font-bold py-2">
                       Start From-<span>{item.price}</span>
                     </p>

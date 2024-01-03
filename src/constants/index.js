@@ -7,7 +7,7 @@ export const TestReport = [
   {
     id: 1,
     testName: "Full Blood Test",
-    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/1772d069-1e8a-44d0-edf7-21503c8b1400/public",
+    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/400593d1-e6b7-4cd2-d41b-d9ece690e100/public",
     offers: "EXCLUSIVE OFFER",
     testTypeR1: {
       testTypeName: "24H HIV Test",
@@ -37,7 +37,7 @@ export const TestReport = [
   {
     id: 2,
     testName: "Single Blood Test",
-    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/1772d069-1e8a-44d0-edf7-21503c8b1400/public",
+    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/81212f7b-c078-407c-c14d-3f9f8f909c00/public",
     offers: "EXCLUSIVE OFFER",
     testTypeR1: {
       testTypeName: "24H HIV Test",
@@ -67,7 +67,97 @@ export const TestReport = [
   {
     id: 3,
     testName: "Pathogen Screen Test",
-    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/1772d069-1e8a-44d0-edf7-21503c8b1400/public",
+    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/04ff2e00-2134-4d5d-b792-cbee54ea9b00/public",
+    offers: "EXCLUSIVE OFFER",
+    testTypeR1: {
+      testTypeName: "24H HIV Test",
+      testTypeValue: "AED 250",
+    },
+    testTypeR2: {
+      testTypeName: "24H HIV Test",
+      testTypeValue: "AED 250",
+    },
+    testTypeR3: {
+      testTypeName: "HIV RNA",
+      testTypeValue: "AED 250",
+    },
+    testTypeR4: {
+      testTypeName: "Hepatitis B",
+      testTypeValue: "AED 250",
+    },
+    testTypeR5: {
+      testTypeName: "Hepatitis A",
+      testTypeValue: "AED 250",
+    },
+    testTypeR6: {
+      testTypeName: "Syphilis (VDRL)",
+      testTypeValue: "AED 250",
+    },
+  },
+  {
+    id: 4,
+    testName: "Full Blood Test",
+    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/400593d1-e6b7-4cd2-d41b-d9ece690e100/public",
+    offers: "EXCLUSIVE OFFER",
+    testTypeR1: {
+      testTypeName: "24H HIV Test",
+      testTypeValue: "AED 250",
+    },
+    testTypeR2: {
+      testTypeName: "24H HIV Test",
+      testTypeValue: "AED 250",
+    },
+    testTypeR3: {
+      testTypeName: "HIV RNA",
+      testTypeValue: "AED 250",
+    },
+    testTypeR4: {
+      testTypeName: "Hepatitis B",
+      testTypeValue: "AED 250",
+    },
+    testTypeR5: {
+      testTypeName: "Hepatitis A",
+      testTypeValue: "AED 250",
+    },
+    testTypeR6: {
+      testTypeName: "Syphilis (VDRL)",
+      testTypeValue: "AED 250",
+    },
+  },
+  {
+    id: 5,
+    testName: "Single Blood Test",
+    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/81212f7b-c078-407c-c14d-3f9f8f909c00/public",
+    offers: "EXCLUSIVE OFFER",
+    testTypeR1: {
+      testTypeName: "24H HIV Test",
+      testTypeValue: "AED 250",
+    },
+    testTypeR2: {
+      testTypeName: "24H HIV Test",
+      testTypeValue: "AED 250",
+    },
+    testTypeR3: {
+      testTypeName: "HIV RNA",
+      testTypeValue: "AED 250",
+    },
+    testTypeR4: {
+      testTypeName: "Hepatitis B",
+      testTypeValue: "AED 250",
+    },
+    testTypeR5: {
+      testTypeName: "Hepatitis A",
+      testTypeValue: "AED 250",
+    },
+    testTypeR6: {
+      testTypeName: "Syphilis (VDRL)",
+      testTypeValue: "AED 250",
+    },
+  },
+  {
+    id: 6,
+    testName: "Pathogen Screen Test",
+    logo: "https://imagedelivery.net/yg9mV_kJZn9RkpQKfOuKfA/04ff2e00-2134-4d5d-b792-cbee54ea9b00/public",
     offers: "EXCLUSIVE OFFER",
     testTypeR1: {
       testTypeName: "24H HIV Test",
