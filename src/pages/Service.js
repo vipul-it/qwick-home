@@ -25,7 +25,7 @@ const Service = ({ service }) => {
                 className="bg-white w-full h-full lg:w-96 lg:h-68 border border-gray-200 shadow-lg"
               >
                 <div className="text-center">
-                  <div className="w-full h-full border-b-8 border-theme1 overflow-hidden">
+                  <div className="w-full h-full border-b-8 border-theme1 overflow-hidden z-0">
                     <img
                       className="w-full h-auto transform transition-transform duration-300 scale-105 hover:scale-125 "
                       src={item.img}

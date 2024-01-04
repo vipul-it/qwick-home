@@ -13,6 +13,12 @@ const Navbar = () => {
   const handleCloseModal = () => {
     setModalOpen(false);
   };
+
+  const phoneNumber = "9896879786";
+
+  const handleCallClick = () => {
+    window.location.href = `tel:${phoneNumber}`;
+  };
   return (
     <div className="container mx-auto bg-white sticky top-0  z-50">
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
@@ -23,16 +29,19 @@ const Navbar = () => {
 
         <div className="flex gap-3">
           <div className="flex md:gap-2 items-center font-semibold text-[9px] md:text-sm leading-none">
-            <div className="flex items-center cursor-pointer gap-1 lg:text-sm text-[10px]">
+            <div
+              onClick={handleCallClick}
+              className="flex items-center cursor-pointer gap-1 lg:text-sm text-[10px] "
+            >
               <MdOutlinePhoneInTalk />
-              <span className=" font-poppins lg:text-sm text-[11px]">
-                7865498375
+              <span className=" font-poppins lg:text-sm text-[11px] ">
+                {phoneNumber}
               </span>
             </div>
-            <div className="hidden cursor-pointer  lg:flex items-center gap-1">
+            <div className="hidden  lg:flex items-center gap-1">
               <IoLocationOutline />
               <span className="font-poppins lg:text-sm text-[11px]">
-                Send a Address
+                Abu Dhabi
               </span>
             </div>
           </div>
