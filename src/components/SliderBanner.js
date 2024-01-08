@@ -13,11 +13,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import { useState } from "react";
-import Modal from "./Modal";
 
-export default () => {
+import Modal from "./Modal";
+import { useState } from "react";
+
+const  SliderBanner = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   const handleOpenModal = () => {
@@ -150,4 +150,4 @@ export default () => {
       </SwiperSlide>
     </Swiper>
   );
-};
+};export default SliderBanner;
