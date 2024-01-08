@@ -8,7 +8,7 @@ const Modal = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed inset-0 z-50 overflow-auto bg-black/50  ${
+      className={`fixed inset-0  z-50 overflow-auto bg-black/50  ${
         isOpen ? "block" : "hidden"
       }`}
     >

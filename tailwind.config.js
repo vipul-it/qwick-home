@@ -18,6 +18,10 @@ module.exports = {
       },
       backgroundImage: {
         'hero-image': "url('/src/img/backgroundimg.jpeg')",
+        'hero-image1': "url('/src/img/banner-01.jpg')",
+        'hero-image2': "url('/src/img/banner-02.jpg')",
+        'hero-image3': "url('/src/img/banner-03.jpg')",
+        'hero-image4': "url('/src/img/banner-04.jpg')",
       }
 
     },

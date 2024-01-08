@@ -30,13 +30,15 @@ const Card = () => {
 
   return (
     <>
+    
       <div className="container mx-auto px-5 lg:pl-12 ">
+        
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
         <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-10 gap-3 lg:mt-14 mt-10">
-          <div className=" col-span-5">
+          <div className=" lg:col-span-5 ">
             <img className="w-full h-full" src={doctor} alt="doctor" />
           </div>
-          <div className=" col-span-7">
+          <div className=" lg:col-span-7">
             <div className="">
               <div className="text-start lg:mt-[15%] mt-4 ">
                 <h1 className="text-2xl md:text-4xl font-raleway font-bold my-2">

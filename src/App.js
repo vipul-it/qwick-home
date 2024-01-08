@@ -25,7 +25,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <div
-        className="flex justify-end  container mx-auto absolute px-8 lg:px-16 z-40 cursor-pointer"
+        className="flex justify-end  container mx-auto absolute px-8 lg:px-16 z-30 cursor-pointer"
         onClick={handleCallClick}
       >
         <span class="flex  h-12 w-12 fixed bottom-32 ">
@@ -44,7 +44,7 @@ function App() {
           </svg>
         </span>
       </div>
-      <div className="flex justify-end container mx-auto px-8 absolute lg:px-16 z-50 ">
+      <div className="flex justify-end container mx-auto px-8 absolute lg:px-16 z-20 ">
         <span class="flex  h-12 w-12 fixed bottom-16">
           <span class=" animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500/50 opacity-75"></span>
           <svg
