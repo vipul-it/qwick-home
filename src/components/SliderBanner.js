@@ -41,7 +41,7 @@ const SliderBanner = () => {
         onSlideChange={() => console.log("slide change")}
       >
         <SwiperSlide>
-          <div className="container mx-auto xl:h-[80vh] z-20  lg:h-[80vh] md:h-[60vh] h-[40vh] lg:bg-hero-image3 lg:bg-transparent bg-slate-100 lg:bg-cover  bg-no-repeat lg:bg-center pt-5 lg:pt-0">
+          <div className="container mx-auto xl:h-[80vh] z-20  lg:h-[80vh] md:h-[60vh] h-[40vh] lg:bg-hero-image1 lg:bg-transparent bg-slate-100 lg:bg-cover  bg-no-repeat lg:bg-center pt-5 lg:pt-0">
             <div className="px-5 lg:px-12 md:flex justify-between lg:h-full font-raleway ">
               <div className="flex justify-center items-center">
                 <div className="text-start">
@@ -66,7 +66,7 @@ const SliderBanner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container mx-auto xl:h-[80vh] z-20  lg:h-[80vh] md:h-[60vh] h-[40vh] lg:bg-hero-image3 lg:bg-transparent bg-slate-100 lg:bg-cover  bg-no-repeat lg:bg-center pt-5 lg:pt-0">
+          <div className="container mx-auto xl:h-[80vh] z-20  lg:h-[80vh] md:h-[60vh] h-[40vh] lg:bg-hero-image2 lg:bg-transparent bg-slate-100 lg:bg-cover  bg-no-repeat lg:bg-center pt-5 lg:pt-0">
             <div className="px-5 lg:px-12 md:flex justify-between lg:h-full font-raleway ">
               <div className="flex justify-center items-center">
                 <div className="text-start">
@@ -116,7 +116,7 @@ const SliderBanner = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container mx-auto xl:h-[80vh] z-20  lg:h-[80vh] md:h-[60vh] h-[40vh] lg:bg-hero-image3 lg:bg-transparent bg-slate-100 lg:bg-cover  bg-no-repeat lg:bg-center pt-5 lg:pt-0">
+          <div className="container mx-auto xl:h-[80vh] z-20  lg:h-[80vh] md:h-[60vh] h-[40vh] lg:bg-hero-image4 lg:bg-transparent bg-slate-100 lg:bg-cover  bg-no-repeat lg:bg-center pt-5 lg:pt-0">
             <div className="px-5 lg:px-12 md:flex justify-between lg:h-full font-raleway ">
               <div className="flex justify-center items-center">
                 <div className="text-start">
