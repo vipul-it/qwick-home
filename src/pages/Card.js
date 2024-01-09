@@ -35,7 +35,7 @@ const Card = () => {
         
       <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
         <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-10 gap-3 lg:mt-14 mt-10">
-          <div className=" lg:col-span-5 ">
+          <div className="w-full h-full lg:col-span-5 ">
             <img className="w-full h-full" src={doctor} alt="doctor" />
           </div>
           <div className=" lg:col-span-7">
