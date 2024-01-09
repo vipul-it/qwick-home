@@ -52,3 +52,10 @@
   background-color: #257378 !important;
   /* Change this to the desired color */
 }
+
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}
