@@ -1,5 +1,6 @@
 {
-  "name": "hospital-system",
+  "name": "quick-home",
+  "homepage": "/quick-home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
